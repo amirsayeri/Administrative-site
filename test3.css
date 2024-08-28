@@ -1,0 +1,406 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+
+/* navbar */
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: #232a30;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.navbar img{
+    width: 30px;
+    height: 30px;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.navbar{
+    color: aliceblue;
+}
+
+
+
+
+
+/* baner */
+.baner{
+    background-image: url(./photo/baner.jpg);
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.439);
+    background-blend-mode:multiply;
+    display: flex;
+    align-items: end;
+}
+.div_baner{
+    background-color: #232a30;
+    padding: 40px;
+    color: aliceblue;
+    height: 450px;
+    padding-top: 6rem;
+    margin-left: 5rem;
+    
+}
+.div_baner h2{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* next section */
+.setion2{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 5rem;
+}
+.div1_section2{
+    margin-top: 5rem;
+    padding: 10px;
+    font-size: 20px;
+}
+.h3_div{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.p1_div{
+    margin-bottom: 20px;
+    color: #868686;
+}
+.p2_div{
+    background-color:rgb(194, 194, 194) ;
+    padding: 20px ;
+    width: 27%;
+    text-align: center;
+}
+
+
+
+
+
+
+.div2_section2{
+    padding: 10px;
+}
+.child1{
+    background-color: #232a30ad;
+    width: 500px;
+    height: 500px;
+    color: #232a30;
+    transform:translate(4rem , -17rem);
+}
+.div2_section2 img{
+    width: 480px;
+    height: 480px;
+    transform:translate(3rem , -46rem);
+
+}
+.child2{
+    width: 150px;
+    height:150px;
+    background-color: #232a30;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: aliceblue;
+    transform:translate(-2rem , -51rem);
+
+}
+.p_div2{
+    transform:translate(-2rem , -50rem);
+
+}
+
+
+
+
+/* icons */
+.icons{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5rem;
+
+
+}
+.icons img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+/* gallery */
+.gallery{
+    background-color: rgb(237, 237, 237);
+    text-align: center;
+    padding: 40px 0 ;
+}
+.gallery h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.gallery p{
+    margin-bottom: 70px;
+
+}
+
+.div_gallery{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.div_gallery img{
+    width: 350px;
+    height: 400px;
+
+
+}
+
+
+/* section article */
+.sec_art{
+    height: 612px;
+    background-color: #232a30;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20rem;
+    
+}
+
+.article_left{
+}
+.article_left p {
+    background-color: #6a6a6a;
+    color:#6a6a6a;
+    width: 150px;
+    height: 580px;
+    transform: translateX(-3rem);
+    margin-top: 2rem;
+}
+.article_left img {
+    z-index: 5;
+    transform: translateY(-33rem);
+    
+}
+
+
+.article_right{
+    color: aliceblue;
+    padding-top: 5rem;
+    
+}
+.article_right h3{
+    font-weight: bold;
+    font-size: 40px; 
+    margin-bottom: 10px;
+ 
+}
+.text{
+    margin-bottom: 10px;
+}
+.dokme{
+    background-color:#6a6a6a;
+    padding: 20px;
+    width: 20%;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.article_right img{
+    transform: translateY(-7rem);
+}
+
+
+
+/* fortin photo */
+.fortin_photo{
+    background-color: #232a30;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    
+    
+}
+.fortin_photo img{
+    width: 380px;
+    height:470px ;
+}
+
+
+/* section proje */
+.sec_proje{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+.article_proje1{
+    margin-top: 8rem;
+    margin-left: 5rem;
+    padding-top: 6rem;
+}
+.article_proje1 h3{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.article_proje1 p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+.article_proje2{
+    display: flex;
+    flex-direction: column;
+
+}
+.article_proje2 p {
+    background-color:#232a30;
+    width: 300px;
+    height: 500px;
+    margin-left:38rem;
+    margin-top: 5rem;
+    color: #232a30;
+    
+}
+.article_proje2 img{
+    width: 60%;
+    height: 50%;
+    transform: translate(16rem , -26rem);
+
+
+}
+
+
+
+/* section end */
+.section_end{
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    transform:translateY(-20rem);
+    margin-top: 5rem;
+    
+    
+}
+.art_left{
+   width: 67%;
+   margin-left: 2rem;
+
+}
+.art_left img{
+    padding: 10px;
+}
+
+.art_right{
+    padding-top: 2rem;
+    margin-left: 30px;
+    
+}
+.art_right h3{
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.p_1{
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+.p_2{
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+.p_3{
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+.p_dokme{
+    background-color:#646464;
+    color: aliceblue;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* footer */
+.footer{
+    background-color: #232a30;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.art_top{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 30px;
+}
+.div_left{
+    font-weight:bold;
+    font-size: 20px;
+    color: aliceblue;
+    padding-top: 10px;
+}
+.div_right img{
+    transform: translateY(10px);
+    margin: 2px;
+    cursor: pointer;
+}
+
+
+
+.art_bottom{
+    text-align: center;
+}
+.divtop{
+    margin-bottom: 30px;
+    color: rgb(152, 152, 152);
+}
+.divbottom{
+    color: rgb(152, 152, 152);
+    padding-bottom: 20px;
+}
+
+
+
+
+/* responsiv */
